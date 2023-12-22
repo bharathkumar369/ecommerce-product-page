@@ -1,0 +1,92 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom: 0.1px solid gray;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.nav{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav--left{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+.nav--right__cart{
+    position:relative;
+}
+.cart{
+    width: 25px;
+
+}
+.nav__logo{
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 2em;
+}
+.nav--cart__count{
+    background-color: rgb(255, 126, 27);
+    height: 25px;
+    width: 25px;
+    border-radius: 12.5px;
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-top: 3px;
+
+}
+.nav__avatar{
+    width: 3rem;
+}
+.nav--right{
+   display: flex;
+   gap: 4vw;
+   align-items: center;
+
+}
+.nav__hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.nav__nav{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    color: gray;
+    font-size: .8em;
+    font-weight: 100;
+    cursor: pointer;
+    align-items: center;
+}
+@media (max-width:600px){
+    .nav__nav{
+        display: none;
+    }
+    .nav__hamburger{
+        display: block;
+    }
+}
+.nav__nav__600{
+    display: flex;
+    background-color: rgb(197, 95, 29);
+    color: white;
+    flex-direction: column;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    cursor: pointer;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.nav__nav__600 h3{
+    margin: 10px px;
+}

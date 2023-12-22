@@ -1,0 +1,129 @@
+.main{
+    width: 80%;
+    margin: 0 auto;
+    height: calc(97.5vh - 100px);
+    display: flex;
+
+}
+@media (max-width:600px){
+    .main{
+        display: block;
+    }
+
+}
+.main--left{
+    width: 50%;
+    padding-top:10vh;
+}
+@media (max-width:600px){
+    .main--left{
+        width: 100%;
+    }
+}
+.main--right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    
+}
+@media (max-width:600px) {
+    .main--right{
+        width: 100%;
+    }
+}
+.main--right h3{
+    letter-spacing: 2px;
+}
+.main--right h1{
+    font-size: 3em;
+    width: 50%;
+    line-height: 1.2em;
+}
+@media (max-width:600px) {
+    .main--right h1{
+        width: 100%;
+    }
+}
+.main--right__p{
+    color: gray;
+    font-size: 1.3em;
+    width: 80%;
+}
+@media (max-width:600px) {
+    .main--right__p{
+        width: 100%;
+    }
+}
+.main--left__thumbnail{
+    display: flex;
+    gap: 1vw;
+}
+@media (max-width:600px) {
+    .main--left__thumbnail{
+        justify-content: space-evenly;
+    }
+}
+.main__thumbnail{
+    height: 5vw;
+    width: 5vw;
+    border-radius:1vw;
+    margin-top:2vw;
+    cursor: pointer;
+}
+@media (max-width:600px) {
+    .main__thumbnail{
+        height: 10vw;
+        width: 10vw;
+    }
+}
+.main__image{
+    width: 28vmax;
+    border-radius: 1vw;
+}
+@media (max-width:600px) {
+    .main__image{
+        width: 100%;
+    }
+
+}
+.main--right h3{
+    color: rgb(255, 126, 27);
+}
+.main--right__50{
+    color: rgb(255, 126, 27);
+    font-weight: 700;
+    margin-left: 2vw;
+    background-color: rgb(254, 240, 224);
+    padding: 1px 5px;
+}
+.main--button__container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.main--button__decrease,.main--button__increase{
+    
+    font-weight: 900;
+    font-size: 2em;
+    border: none;
+    color: rgb(255, 126, 27);
+    font-weight: 900;
+    padding: 0px 2px;
+    cursor: pointer;
+}
+.main--button__add{
+    
+    background-color:rgb(255, 126, 27) ;
+    border: none;
+    color: white;
+    font-weight: 900;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main--right__strike{
+    color: gray;
+    text-decoration: line-through;
+}
